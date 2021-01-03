@@ -1,0 +1,19 @@
+.btn {
+    color: skyblue;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: black;
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #31beff, 0 0 80px #0099ff, 0 0 90px #76d8ff, 0 0 100px #25a6fc, 0 0 150px #0099ff;
+    transition: color 1s, text-shadow 2s, border 2s;
+}
+

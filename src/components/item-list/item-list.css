@@ -1,0 +1,28 @@
+.item-list {
+    background-image: url('../../img/sw.svg');
+}
+
+.item-list ul {
+    width: 200px;
+    list-style: none;
+}
+
+.item-list li {
+    margin: 4px 0 4px 4px;
+    height: auto;
+    width: 200px;
+    background-color: rgb(36, 34, 34);
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    color: skyblue;
+}
+
+.item-list .list-group-item:hover {
+    background-color: rgb(241, 185, 0);
+    transition: background-color 2s, color 2s;
+    color:black;
+}
+
+.item-list li {
+    margin-left: 2.2%;
+}

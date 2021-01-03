@@ -1,0 +1,21 @@
+.error-button {
+    border: 1px solid rgb(241, 172, 11);
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    margin: 10px 30px 30px 10px;
+    border-radius: 15px;
+}
+
+.btn-lg {
+    background-color: black;
+    padding: 20px 50px 50px 25px;
+    color:skyblue 
+} 
+
+.error-button:hover{
+    border: 1px solid rgb(241, 172, 11);
+    background-color: rgb(226, 58, 58);
+    transition: background-color 2s, color 2s;
+    color:black
+}

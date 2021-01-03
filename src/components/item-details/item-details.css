@@ -1,0 +1,29 @@
+.person-details {
+  background-image: url('../../img/sw.svg');
+    display: flex;
+    margin-top: 0rem;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  
+  .person-details .person-image {
+    width: 15%;
+    height: 15%;
+    border:1px solid goldenrod;
+    border-radius: 10px;
+  }
+  
+  .person-details .list-group-item {
+      color: skyblue;
+      background-image: url('../../img/sw.svg');
+    padding: .25rem;
+  }
+  
+  .person-details .list-group-item .term{
+    background-image: url('../../img/sw.svg');
+    margin-right: .5rem;
+  }
+
+  .person-details h4 {
+      color:goldenrod;
+  }

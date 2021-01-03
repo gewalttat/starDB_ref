@@ -1,0 +1,38 @@
+.random-planet {
+  display: flex;
+  padding: 1rem;
+  background-image: url('../../img/sw.svg');
+}
+
+.random-planet .planet-image {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border:1px solid goldenrod;
+  border-radius: 30px;
+  margin-right: 1rem;
+}
+
+.random-planet .list-group {
+  background-color: black;
+  margin: 1rem 0 0 1rem;
+}
+
+.random-planet .list-group-item {
+  color:skyblue;
+  background-color: black;
+  padding: .25rem;
+}
+
+.random-planet .list-group-item .term {
+  margin-right: .5rem;
+}
+
+.random-planet h4 {
+  color:goldenrod;
+  padding-left: 20px;
+}
+
+.random-planet .jumbotron .rounded{
+  background-color: black;
+}
